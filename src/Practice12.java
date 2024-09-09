@@ -8,6 +8,8 @@ public class Practice12 {
                 System.out.println("aの値は1です");  // aの値がcase 1:に該当するため実行される
             case 2:
                 System.out.println("aの値は2です");  // case 1:にbreak;がなかったためcase 2:も実行される
+            case 3:
+                System.out.println("aの値は3です");  // 上記と同様の理由でcase 3:も実行される
             default :
                 System.out.println("default実行完了");  // 上記と同様の理由でdefault :も実行される
         }
